@@ -1,6 +1,6 @@
 # cloud2020
 尚硅谷 springcloud2020 teacher:周阳 视频学习
-## 目前进度 openFeign完结 第47节 明天开始学习Hystrix
+## 目前进度 openFeign完结 第58节 明天开始学习Hystrix
 ### 数据库8.0驱动 mysql
 1. 集群服务 7001 7002 采用eureka
 2. 支付集群服务 8001 8002 采用eureka
@@ -33,3 +33,9 @@
            超时控制 8001端口项目 controller新增超时控制测试方法
            日志配置输出
            脑图上传
+#### 2020-03-29
+       新增 hystrix 消费端口80
+            服务端口8001
+            服务降级 @HystrixCommand全局配置
+            局部配置、
+            @FeignClient(value,fallback)三种方式
